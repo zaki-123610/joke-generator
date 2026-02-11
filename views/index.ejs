@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>JOKE Generator</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Your personalized joke is just a click away – <br> enter your name!</h1>
+
+        <form action="/joke" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <button type="submit">Get Joke</button>
+
+        <% if (joke) { %>
+         <h2>Your Personalized Joke:</h2>
+         <p>Enjoy your joke below! Remember, laughter is the best medicine 😄</p>
+          <p><%= joke %></p>
+        <% } %>
+    </div>
+</form>
+</body>
+</html>
