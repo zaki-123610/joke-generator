@@ -82,3 +82,8 @@ App running at: **http://localhost:3000**
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 📸 Screenshot
+![App Screenshot](public/images/joke.1.jpg)
+
+![App Screenshot](public/images/joke.2.jpg)
